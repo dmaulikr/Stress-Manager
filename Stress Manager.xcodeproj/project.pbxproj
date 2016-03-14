@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4100631F1C86A91D009B7C26 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4100631E1C86A91D009B7C26 /* ContentViewController.swift */; };
+		410063251C86CE59009B7C26 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410063241C86CE59009B7C26 /* PageViewController.swift */; };
 		EAA7EC171C84D444002DF8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7EC161C84D444002DF8C5 /* AppDelegate.swift */; };
 		EAA7EC191C84D444002DF8C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7EC181C84D444002DF8C5 /* ViewController.swift */; };
 		EAA7EC1C1C84D444002DF8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA7EC1A1C84D444002DF8C5 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4100631E1C86A91D009B7C26 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		410063241C86CE59009B7C26 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		EAA7EC131C84D444002DF8C5 /* Stress Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA7EC161C84D444002DF8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAA7EC181C84D444002DF8C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				EAA7EC161C84D444002DF8C5 /* AppDelegate.swift */,
 				EAA7EC181C84D444002DF8C5 /* ViewController.swift */,
+				4100631E1C86A91D009B7C26 /* ContentViewController.swift */,
+				410063241C86CE59009B7C26 /* PageViewController.swift */,
 				EAA7EC1A1C84D444002DF8C5 /* Main.storyboard */,
 				EAA7EC1D1C84D444002DF8C5 /* Assets.xcassets */,
 				EAA7EC1F1C84D444002DF8C5 /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA7EC191C84D444002DF8C5 /* ViewController.swift in Sources */,
+				4100631F1C86A91D009B7C26 /* ContentViewController.swift in Sources */,
 				EAA7EC171C84D444002DF8C5 /* AppDelegate.swift in Sources */,
+				410063251C86CE59009B7C26 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Stress Manager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.Stress-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Stress Manager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.Stress-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,6 +434,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Stress ManagerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.Stress-ManagerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +447,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Stress ManagerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.Stress-ManagerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Stress ManagerUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.Stress-ManagerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Stress ManagerUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Daniel-Yount.Stress-ManagerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
